@@ -16,6 +16,6 @@ jobs:
       # Deploy
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "mysimplesite01" #Must be unique in Heroku
-          heroku_email: "njhuckov@gmail.com"
+          heroku_api_key: ${{secrets.HEROKU_API}}
+          heroku_app_name: "deploy-ghactions" #Must be unique in Heroku
+          heroku_email: "nikita045-98@mail.ru"
