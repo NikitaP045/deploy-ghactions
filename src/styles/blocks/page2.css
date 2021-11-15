@@ -47,7 +47,7 @@ header {
     align-items: center;
 }
 
-.main { 
+.main {
     display: flex;
     height: 80px;
     align-items: center;
@@ -58,7 +58,7 @@ header {
     font-size: 18px;
     line-height: 24px;
 }
-.save { 
+.save {
     display: flex;
     height: 80px;
     align-items: center;
@@ -70,7 +70,7 @@ header {
     line-height: 24px;
 }
 
-.menuFlag {   
+.menuFlag {
     border-bottom: solid 2px #1A1B22;
 }
 
@@ -138,13 +138,13 @@ header {
     flex-wrap: wrap;
     padding-bottom: 62px;
 }
- 
+
 .cardFlexContainer > * {
     margin: 5px;
-  }
+}
 .cardFlexContainer {
     margin: -5px;
-  }
+}
 
 .card {
     box-sizing: border-box;
@@ -206,7 +206,7 @@ header {
     letter-spacing: 0.4px;
     text-transform: uppercase;
     color: #B6BCBF;
-    position: absolute;  
+    position: absolute;
     bottom: 24px;
     left: 24px;
 }
@@ -347,7 +347,7 @@ header {
 
 /* //////////////////////////////////////////////////////////////MOBILE////////////////////////////////////////////////////////////// */
 
-@media (max-width: 550px) { 
+@media (max-width: 550px) {
     * {
         padding: 0;
         margin: 0;
@@ -359,19 +359,15 @@ header {
         width: 90vw;
         margin:  0 auto;
     }
-    
     .containerCards {
         max-width: 1232px;
         width: 90vw;
         margin:  0 auto;
     }
-    
     /* ////////////// Header section ///////////////// */
-    
     header {
         box-shadow: inset 0px -1px 0px #D1D2D6;
     }
-    
     .flexHeader {
         height: 80px;
         width: 100%;
@@ -379,7 +375,6 @@ header {
         justify-content: space-between;
         align-items: center;
     }
-    
     .logo {
         font-family: Roboto Slab;
         font-style: normal;
@@ -390,15 +385,12 @@ header {
         align-items: center;
         color: #1A1B22;
     }
-    
     .menu {
         display: none;
         justify-content: space-between;
         align-items: center;
-    
     }
-    
-    .main { 
+    .main {
         display: flex;
         height: 80px;
         align-items: center;
@@ -409,7 +401,7 @@ header {
         font-size: 18px;
         line-height: 24px;
     }
-    .save { 
+    .save {
         display: flex;
         height: 80px;
         align-items: center;
@@ -420,15 +412,12 @@ header {
         font-size: 18px;
         line-height: 24px;
     }
-    
-    .menuFlag {   
+    .menuFlag {
         border-bottom: solid 2px #1A1B22;
     }
-    
     .hideMobileMenu {
         display: flex;
     }
-    
     .logout {
         background-color: #fff;
         display: flex;
@@ -445,13 +434,10 @@ header {
         font-size: 18px;
         line-height: 24px;
     }
-    
     .logout img {
         margin-left: 5px;
     }
-    
-    /* ////////////// INFO section ///////////////// */
-    
+/* ////////////// INFO section ///////////////// */
     .info h1 {
         font-family: Roboto Slab;
         font-style: normal;
@@ -470,28 +456,21 @@ header {
         line-height: 24px;
         color: rgba(26, 27, 34, 0.5);
     }
-    
     .info div {
         margin-top: 30px;
         margin-bottom: 34px;
     }
-    
-    /* ////////////// CARD GALLERY section ///////////////// */
-    
+/* ////////////// CARD GALLERY section ///////////////// */
     .content {
         width: 100%;
         background-color: #F5F6F7;
         padding-top: 24px;
     }
-    
     .cardFlexContainer {
         display: flex;
         flex-wrap: wrap;
         padding-bottom: 24px;
     }
-     
-    
-    
     .card {
         box-sizing: border-box;
         margin: 5px auto;
@@ -501,16 +480,13 @@ header {
         width: 100%;
         border-radius: 16px;
         background-color: #fff;
-    
     }
-    
     .image {
         max-width: 400px;
         width: 100%;
         max-height: 272px;
         border-radius: 16px 16px 0 0;
     }
-    
     .cardDate {
         font-family: Source Sans Pro;
         font-style: normal;
@@ -521,7 +497,6 @@ header {
         margin-top: 12px;
         margin-left: 24px;
     }
-    
     .title {
         font-family: Roboto Slab;
         font-style: normal;
@@ -533,7 +508,6 @@ header {
         margin-left: 24px;
         margin-right: 24px;
     }
-    
     .description {
         font-family: Roboto;
         font-style: normal;
@@ -545,7 +519,6 @@ header {
         margin-left: 24px;
         margin-right: 24px;
     }
-    
     .tag {
         font-family: Roboto Slab;
         font-style: normal;
@@ -555,14 +528,11 @@ header {
         letter-spacing: 0.4px;
         text-transform: uppercase;
         color: #B6BCBF;
-        position: absolute;  
+        position: absolute;
         bottom: 24px;
         left: 24px;
     }
-    
-    
-    /* ////////////// CARD GALLERY ACTIVE BUTTONS ///////////////// */
-    
+/* ////////////// CARD GALLERY ACTIVE BUTTONS ///////////////// */
     .activeBtnFlex {
         display:flex;
         justify-content: space-between;
@@ -571,7 +541,6 @@ header {
         top: 24px;
         right: 24px;
     }
-    
     .keyWord {
         display: flex;
         justify-content: center;
@@ -587,13 +556,10 @@ header {
         line-height: 24px;
         text-align: center;
         color: #000000;
-    
     }
-    
     .activeBtnFlexInner{
         display: flex;
     }
-    
     .deleteCard {
         background: #FFFFFF;
         border-radius: 10px;
@@ -610,12 +576,9 @@ header {
         align-items: center;
         color: #000000;
     }
-    
     .deleteCardFlag {
         display: flex;
     }
-    
-    
     .trash {
         display: flex;
         justify-content: center;
@@ -625,15 +588,11 @@ header {
         height: 40px;
         width: 40px;
     }
-    
     .trash img {
         height: 24px;
         width: 24px;
     }
-    
-    /* ////////////// FOOTER section ///////////////// */
-    
-   
+/* ////////////// FOOTER section ///////////////// */
 .flexFooter {
     width: 100%;
     display: flex;
@@ -649,7 +608,6 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
 .mainFooter{
     display: flex;
     align-items: center;
@@ -686,7 +644,6 @@ header {
     padding-bottom: 20px;
     padding-top: 30px;
     width: 100%;
- 
 }
 .iconsFooter {
     display: flex;
